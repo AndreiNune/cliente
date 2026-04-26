@@ -1,0 +1,10 @@
+server:
+  port: 8083
+
+spring:
+  application:
+    name: cliente
+  data:
+    mongodb:
+      auto-index-creation: true
+      uri: mongodb://localhost:27017/cliente
